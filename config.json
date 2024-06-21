@@ -1,0 +1,11 @@
+{
+    "credentials":{
+        "driver": "{ODBC Driver 17 for SQL Server}",
+        "server": "",
+        "database": "",
+        "uid": "",
+        "pwd": "",
+        "autocommit":true
+    },
+    "deletePublic": false
+}
