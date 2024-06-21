@@ -8,6 +8,7 @@ Tilretning:
 - Udfyld config.json med credentials. 
 	- Hvis du logger på databasen med AD i stedet for user/pwd, skal credentials.uid og credentials.pwd slettes og erstattes af "trustedconnection":"yes"
 - config.credentials indeholder også navnet på driveren til MSSQL-databasen. dette er versionsafhængigt (databaseversion).
+- config.deletePublic bestemmer om der også slettes offentlige data (kan jo potentielt være anvendt af andre nuværende brugere). default false, hvilket gør at offentlige data ikke slettes.
 
 
 LÆS SCRIPTET OG DETS SQL-FORESPØRGSLER IGENNEM INDEN ANVENDELSE.
